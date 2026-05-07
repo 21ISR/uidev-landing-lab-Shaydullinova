@@ -92,9 +92,55 @@ body{
     color: var(--color-brown);
     font-weight: normal;
     font-size: 2rem;
-    margin: 60px 0;
+    margin: 3.8rem 0;
 }
 
 .hero__content{
-    padding: 100px 0 0 100px;
+    padding: 6.3rem 0 0 6.3rem;
+}
+
+.catalog{
+    padding: 8rem 2rem;
+}
+
+.catalog__main-title{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.catalog__title{
+    padding: 3rem;
+}
+
+.catalog__grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.card{
+    background-color: var(--color-bg-main);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: 1px solid var(--color-pink);
+}
+
+.card__img{
+    background-color: var(--color-pink);
+    border-radius: 0.5rem;
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.card__btn{
+    font-size: 1.5rem;
+    background-color: var(--color-brown);
+    color: var(--color-bg-main);
+    height: 3rem;
+    width: 12rem;
+    border-radius: 2rem;
+    border: none;
 }
