@@ -2,7 +2,7 @@
     --color-brown: #6d4c41;
     --color-pink: #f8bbd0;
     --color-bg-main: #faf9f6;
-    --color-white: #fff
+    --color-white: #fff;
 }
 
 *{
@@ -112,7 +112,7 @@ body{
     padding: 3rem;
 }
 
-.catalog__grid{
+.catalog__container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

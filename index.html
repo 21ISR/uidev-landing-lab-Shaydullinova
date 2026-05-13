@@ -17,7 +17,7 @@
                     <ul class="header__list">
                         <li class="nav-item"><a class="nav-link" href="#hero">Главная</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
-                        <li class="nav-item"><a class="nav-link" href="catalog">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
                         <li class="nav-item"><a class="nav-link" href="#galary">Галерея</a></li>
                         <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
                     </ul>
@@ -48,14 +48,16 @@
             <section class="catalog" id="catalog">
                 <p class="catalog__main-title">Каталог</p>
                 <h2 class="catalog__title">Букеты</h2>
-                <div class="catalog__grid">
-                    <article class="card">
-                        <div class="card__img"></div>
-                        <h3 class="card__title">Название</h3>
-                        <p class="card__description">Описание</p>
-                        <p class="card__price">2 500</p>
-                        <button class="card__btn">В корзину</button>
-                    </article>
+                <div class="catalog__container">
+                    <section class="catalog__container flower-section">
+                        <article class="card">
+                            <div class="card__img"></div>
+                            <h3 class="card__title">Название</h3>
+                            <p class="card__description">Описание</p>
+                            <p class="card__price">2 500</p>
+                            <button class="card__btn">В корзину</button>
+                        </article>
+                    </section>
                     <article class="card">
                         <div class="card__img"></div>
                         <h3 class="card__title">Название</h3>
@@ -88,7 +90,7 @@
                 <div class="galary__item img6"></div>
             </section>
             <section class="reviews" id="reviews">
-                
+
             </section>
         </main>
     </div>
