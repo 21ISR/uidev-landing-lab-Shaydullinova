@@ -1,99 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Цветочная Лавка — Магия в каждом букете</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo"></div>
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="nav-item"><a class="nav-link" href="#hero">Главная</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#catalog">Каталог</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#galary">Галерея</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
-                    </ul>
-                </nav>
-                <div class="header__icons">
-                    <button class="header__icon-btn"></button>
-                    <button class="header__icon-btn"></button>
+
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">FLOWER SHOP</div>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li><a href="#hero" class="nav-link">Главная</a></li>
+                    <li><a href="#catalog" class="nav-link">Каталог</a></li>
+                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero__content">
+                <h1 class="hero__title">Цветы с характером</h1>
+                <p class="hero__subtitle">Создаем авторские букеты для тех, кто ценит эстетику и свежесть каждый день.
+                </p>
+                <div class="hero__actions">
+                    <button class="hero__btn">Смотреть каталог</button>
                 </div>
             </div>
-        </header>
-        <main>
-            <section class="hero" id="hero">
-                <div class="hero__content">
-                    <h1 class="hero__title">цветы</h1>
-                    <p class="hero__subtitle">которые делают вас счастливыми</p>
-                    <button class="hero__btn">Перейти в каталог</button>
-                </div>
-            </section>
+        </section>
 
-            <section class="about" id="about">
-                <div class="about__content">
-                    <h2 class="about__title">О нашей мастерской</h2>
-                    <p class="about__text"></p>
-                </div>
-                <div class="about__image"></div>
-            </section>
+        <section class="catalog" id="catalog">
+            <h2 class="catalog__main-title">Популярные товары</h2>
+            <div class="catalog__container">
+                <article class="card">
+                    <div class="card__img"></div>
+                    <h3 class="card__title">Букет "Нежность"</h3>
+                    <p class="card__price">2500 руб.</p>
+                    <button class="card__btn">В корзину</button>
+                </article>
 
-            <section class="catalog" id="catalog">
-                <p class="catalog__main-title">Каталог</p>
-                <h2 class="catalog__title">Букеты</h2>
-                <div class="catalog__container">
-                    <section class="catalog__container flower-section">
-                        <article class="card">
-                            <div class="card__img"></div>
-                            <h3 class="card__title">Название</h3>
-                            <p class="card__description">Описание</p>
-                            <p class="card__price">2 500</p>
-                            <button class="card__btn">В корзину</button>
-                        </article>
-                    </section>
-                    <article class="card">
-                        <div class="card__img"></div>
-                        <h3 class="card__title">Название</h3>
-                        <p class="card__description">Описание</p>
-                        <p class="card__price">3 800</p>
-                        <button class="card__btn">В корзину</button>
-                    </article>
-                    <article class="card">
-                        <div class="card__img"></div>
-                        <h3 class="card__title">Название</h3>
-                        <p class="card__description">Описание</p>
-                        <p class="card__price">4 500</p>
-                        </span><button class="card__btn">В корзину</button>
-                    </article>
-                    <article class="card">
-                        <div class="card__img"></div>
-                        <h3 class="card__title">Название</h3>
-                        <p class="card__description">Описание</p>
-                        <p class="card__price">2 800</p>
-                        <button class="card__btn">В корзину</button>
-                    </article>
-                </div>
-            </section>
-            <section class="galary" id="galary">
-                <div class="galary__item img1"></div>
-                <div class="galary__item img2"></div>
-                <div class="galary__item img3"></div>
-                <div class="galary__item img4"></div>
-                <div class="galary__item img5"></div>
-                <div class="galary__item img6"></div>
-            </section>
-            <section class="reviews" id="reviews">
+                <article class="card">
+                    <div class="card__img"></div>
+                    <h3 class="card__title">Красные розы</h3>
+                    <p class="card__price">3200 руб.</p>
+                    <button class="card__btn">В корзину</button>
+                </article>
 
-            </section>
-        </main>
-    </div>
+                <article class="card">
+                    <div class="card__img"></div>
+                    <h3 class="card__title">Весенний микс</h3>
+                    <p class="card__price">1800 руб.</p>
+                    <button class="card__btn">В корзину</button>
+                </article>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <h2 class="catalog__main-title">Наша галерея</h2>
+            <div class="gallery__grid">
+                <div class="gallery__item"></div>
+                <div class="gallery__item"></div>
+                <div class="gallery__item"></div>
+                <div class="gallery__item"></div>
+                <div class="gallery__item"></div>
+                <div class="gallery__item"></div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h2 class="catalog__main-title">Напишите нам</h2>
+            <form class="contacts__form">
+                <input type="text" placeholder="Ваше имя" class="contacts__input">
+                <input type="email" placeholder="Ваш Email" class="contacts__input">
+                <textarea placeholder="Ваше сообщение" class="contacts__textarea"></textarea>
+                <button type="submit" class="contacts__btn">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p>&copy; 2024 Цветочный магазин. Все права защищены.</p>
+            <p>Ул. Садовая, д. 5 | Тел: +7 (999) 000-00-00</p>
+        </div>
+    </footer>
+
 </body>
 
 </html>
