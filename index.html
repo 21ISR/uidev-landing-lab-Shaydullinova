@@ -1,97 +1,212 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Цветочная Лавка — Магия в каждом букете</title>
+    <title>Flower Studio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
-
-<body>
-
+<body class="container">
     <header class="header">
         <div class="header__container">
-            <div class="header__logo">FLOWER SHOP</div>
+            <a href="#" class="header__logo">Flower Studio</a>
             <nav class="header__nav">
-                <ul class="header__list">
-                    <li><a href="#hero" class="nav-link">Главная</a></li>
-                    <li><a href="#catalog" class="nav-link">Каталог</a></li>
-                    <li><a href="#gallery" class="nav-link">Галерея</a></li>
-                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">О нас</a></li>
+                    <li class="header__item"><a href="#catalog" class="header__link">Каталог</a></li>
+                    <li class="header__item"><a href="#delivery" class="header__link">Доставка</a></li>
+                    <li class="header__item"><a href="#gallery" class="header__link">Галерея</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
     <main>
-        <section class="hero" id="hero">
-            <div class="hero__content">
-                <h1 class="hero__title">Цветы с характером</h1>
-                <p class="hero__subtitle">Создаем авторские букеты для тех, кто ценит эстетику и свежесть каждый день.
-                </p>
-                <div class="hero__actions">
-                    <button class="hero__btn">Смотреть каталог</button>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Эстетика природы в каждом букете</h1>
+                    <p class="hero__subtitle">Авторские флористические композиции с доставкой для тех, кто ценит утонченность и минимализм.</p>
+                    <a href="#catalog" class="hero__button">Смотреть каталог</a>
                 </div>
             </div>
         </section>
-
-        <section class="catalog" id="catalog">
-            <h2 class="catalog__main-title">Популярные товары</h2>
+        <section id="about" class="about">
+            <div class="about__container">
+                <div class="about__text-block">
+                    <h2 class="about__title">О студии</h2>
+                    <p class="about__text">Мы верим, что цветы — это не просто подарок, а способ передать чувства и создать атмосферу. Наша студия отсекает всё лишнее, подчеркивая естественную красоту, форму и текстуру каждого бутона.</p>
+                    <p class="about__text">Мы собираем композиции из свежайших сортовых цветов, импортируемых со всего мира, бережно сохраняя их природный шарм.</p>
+                </div>
+                <div>
+                    <div class="about__image">
+                        <img src="images/about_img.jpg" class="about__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="catalog">
             <div class="catalog__container">
-                <article class="card">
-                    <div class="card__img"></div>
-                    <h3 class="card__title">Букет "Нежность"</h3>
-                    <p class="card__price">2500 руб.</p>
-                    <button class="card__btn">В корзину</button>
-                </article>
+                <h2 class="catalog__title">Каталог</h2>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Бестселлеры</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">White Elegance</h4>
+                            <p class="product-card__price">5 400 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Nude Harmony</h4>
+                            <p class="product-card__price">6 200 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet3.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Eucalyptus Mist</h4>
+                            <p class="product-card__price">4 800 ₽</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Букеты</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet4.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Monochrome Rose</h4>
+                            <p class="product-card__price">7 000 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet5.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Pure Peony</h4>
+                            <p class="product-card__price">8 500 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet6.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Spring Breath</h4>
+                            <p class="product-card__price">5 100 ₽</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Цветы в коробке</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Velvet Box</h4>
+                            <p class="product-card__price">6 800 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Powder Dream Box</h4>
+                            <p class="product-card__price">5 900 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box3 (2).jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Ivory Minimal</h4>
+                            <p class="product-card__price">6 400 ₽</p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Цветы в корзине</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Garden Basket</h4>
+                            <p class="product-card__price">9 200 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Wild Field Basket</h4>
+                            <p class="product-card__price">7 800 ₽</p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket3.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Chateau Basket</h4>
+                            <p class="product-card__price">11 000 ₽</p>
+                        </article>
+                    </div>
+                </div>
 
-                <article class="card">
-                    <div class="card__img"></div>
-                    <h3 class="card__title">Красные розы</h3>
-                    <p class="card__price">3200 руб.</p>
-                    <button class="card__btn">В корзину</button>
-                </article>
-
-                <article class="card">
-                    <div class="card__img"></div>
-                    <h3 class="card__title">Весенний микс</h3>
-                    <p class="card__price">1800 руб.</p>
-                    <button class="card__btn">В корзину</button>
-                </article>
             </div>
         </section>
-
-        <section class="gallery" id="gallery">
-            <h2 class="catalog__main-title">Наша галерея</h2>
-            <div class="gallery__grid">
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
-                <div class="gallery__item"></div>
+        <section id="delivery" class="delivery">
+            <div class="delivery__container">
+                <h2 class="delivery__title">Доставка и оплата</h2>
+                <div class="delivery__grid">
+                    <div class="delivery__card">
+                        <span class="delivery__number">01</span>
+                        <h4 class="delivery__card-title">Бережная транспортировка</h4>
+                        <p class="delivery__text">Все букеты перевозятся в специальных аквабоксах и защитных коробах, чтобы цветы сохранили первозданную свежесть.</p>
+                    </div>
+                    <div class="delivery__card">
+                        <span class="delivery__number">02</span>
+                        <h4 class="delivery__card-title">Сроки и интервалы</h4>
+                        <p class="delivery__text">Доставляем по городу от 2-х часов с момента заказа или к точно назначенному времени. Работаем ежедневно с 9:00 до 21:00.</p>
+                    </div>
+                    <div class="delivery__card">
+                        <span class="delivery__number">03</span>
+                        <h4 class="delivery__card-title">Удобная оплата</h4>
+                        <p class="delivery__text">Оплата онлайн картой на сайте или по QR-коду через СБП после финального согласования фото готового букета.</p>
+                    </div>
+                </div>
             </div>
         </section>
-
-        <section class="contacts" id="contacts">
-            <h2 class="catalog__main-title">Напишите нам</h2>
-            <form class="contacts__form">
-                <input type="text" placeholder="Ваше имя" class="contacts__input">
-                <input type="email" placeholder="Ваш Email" class="contacts__input">
-                <textarea placeholder="Ваше сообщение" class="contacts__textarea"></textarea>
-                <button type="submit" class="contacts__btn">Отправить</button>
-            </form>
+        <section id="gallery" class="gallery">
+            <div class="gallery__container">
+                <h2 class="gallery__title">Фото наших клиентов</h2>
+                <div class="gallery__grid">
+                    <div class="gallery__item"><img src="images/gallery1.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery2.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery3.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery4.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery5.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery6.jpg" class="gallery__image"></div>
+                </div>
+            </div>
         </section>
     </main>
-
     <footer class="footer">
         <div class="footer__container">
-            <p>&copy; 2024 Цветочный магазин. Все права защищены.</p>
-            <p>Ул. Садовая, д. 5 | Тел: +7 (999) 000-00-00</p>
+            <p class="logo">Flower Studio</p>
+            <nav class="footer">
+                <ul class="footer__menu">
+                    <li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
+                    <li class="footer__item"><a href="#about" class="footer__link">О нас</a></li>
+                    <li class="footer__item"><a href="#catalog" class="footer__link">Каталог</a></li>
+                    <li class="footer__item"><a href="#delivery" class="footer__link">Доставка</a></li>
+                    <li class="footer__item"><a href="#gallery" class="footer__link">Галерея</a></li>
+                </ul>
+            </nav>
         </div>
     </footer>
-
 </body>
-
 </html>
