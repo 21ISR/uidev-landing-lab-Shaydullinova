@@ -127,7 +127,7 @@ img {
 
 .hero__button:hover {
     border-color: var(--color-bg);
-    color: var(--color-text-main);
+    color: var(--color-bg);
 }
 
 .about {
@@ -229,6 +229,12 @@ img {
     font-size: 0.9rem;
     color: var(--color-text-muted);
     font-weight: 400;
+}
+
+.catalog__compound{
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    margin-bottom: 6px;
 }
 
 .delivery {
