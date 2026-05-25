@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body class="container">
+    <header class="header">
+        <div class="header__container">
+            <a href="#" class="header__logo">Flower Studio</a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="#" class="header__link">Главная</a></li>
+                    <li class="header__item"><a href="#about" class="header__link">О нас</a></li>
+                    <li class="header__item"><a href="#catalog" class="header__link">Каталог</a></li>
+                    <li class="header__item"><a href="#delivery" class="header__link">Доставка</a></li>
+                    <li class="header__item"><a href="#gallery" class="header__link">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">Эстетика природы в каждом букете</h1>
+                    <p class="hero__subtitle">Бесплатная доставка по городу от 4 500 рублей</p>
+                    <a href="#catalog" class="hero__button">Смотреть каталог</a>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="about__container">
+                <div class="about__text-block">
+                    <h2 class="about__title">О студии</h2>
+                    <p class="about__text">Мы верим, что цветы — это не просто подарок, а способ передать чувства и создать атмосферу. Наша студия отсекает всё лишнее, подчеркивая естественную красоту, форму и текстуру каждого бутона.</p>
+                    <p class="about__text">Мы собираем композиции из свежайших сортовых цветов, импортируемых со всего мира, бережно сохраняя их природный шарм.</p>
+                </div>
+                <div>
+                    <div class="about__image">
+                        <img src="images/about_img.jpg" class="about__image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="catalog">
+            <div class="catalog__container">
+                <h2 class="catalog__title">Каталог</h2>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Бестселлеры</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Небесная прохлада</h4>
+                            <p class="catalog__compound">Дельфиниум голубой, роза кустовая пионовидная, гортензия нежно-голубая,
+                                ромашка садовая, ранункулюс белый, маттиола белая, эвкалипт</p>
+                            <p class="product-card__price"><b>5 800 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Нежность</h4>
+                            <p class="catalog__compound">белая гортензия, нежно-розовые эквадорские розы, сортовые розовые гвоздики (диантусы), 
+                                натуральный хлопок, белая эустома, эвкалипт парвифолия</p>
+                            <p class="product-card__price"><b>6 500 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div>
+                                <img src="images/boquet3.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Розовый фарфор</h4>
+                            <p class="catalog__compound">персиково-розовые пионовидные розы, розовая гортензия, сортовые нежно-розовые гвоздики, 
+                                белая мультифлора эустома, веточки эвкалипта цинерия</p>
+                            <p class="product-card__price"><b>7 200 ₽</b></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Букеты</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet4.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Ягодный сорбет</h4>
+                            <p class="catalog__compound">белоснежные гортензии, ярко-розовые кустовые пионовидные розы, белая маттиола, 
+                                розовые ягоды гиперикума</p>
+                            <p class="product-card__price"><b>7 000 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet5.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Лимонный мусс</h4>
+                            <p class="catalog__compound">желтые пионовидные розы (сорт Каталина), нежно-розовая эустома, лавандовая гортензия, 
+                                кремовые кустовые розы</p>
+                            <p class="product-card__price"><b>8 500 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/bouquet6.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Майское утро</h4>
+                            <p class="catalog__compound">белая махровая кустовая хризантема, розовая кустовая роза, лимонно-кремовые пионовидные розы, 
+                                нежно-желтая эустома, веточки эвкалипта</p>
+                            <p class="product-card__price"><b>5 100 ₽</b></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Цветы в коробке</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Кремовый бархат</h4>
+                            <p class="catalog__compound">кустовые пионовидные розы, ранункулюсы, сортовые махровые гвоздики (диантусы), 
+                                белые шаровидные хризантемы, веточки эвкалипта</p>
+                            <p class="product-card__price"><b>6 800 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Нежный утренник</h4>
+                            <p class="catalog__compound">нежно-персиковые сортовые розы, пудровые гвоздики,
+                               кустовые пионовидные розы, натуральный хлопок, сухоцветы лагуруса</p>
+                            <p class="product-card__price"><b>5 900 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/box3 (2).jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Белый шелк</h4>
+                            <p class="catalog__compound">крупные пионовидные розы нежно-розового оттенка, французские розы, кустовые розы сливочного цвета,
+                                веточки эвкалипта</p>
+                            <p class="product-card__price"><b>6 400 ₽</b></p>
+                        </article>
+                    </div>
+                </div>
+                <div class="catalog__chapter">
+                    <h3 class="catalog__chapter-title">Цветы в корзине</h3>
+                    <div class="catalog__grid">
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket1.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Садовая романтика</h4>
+                            <p class="catalog__compound">пышные сортовые гвоздики, высокие ветки маттиолы, нежно-розовые розы, 
+                                кустовые розы, веточки стильной зелени</p>
+                            <p class="product-card__price"><b>9 200 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket2.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Пионовый зефир</h4>
+                            <p class="catalog__compound">Розовая гортензия, пионовидные розы премиальных сортов, белые французские розы,
+                                розовые гвоздики, ветки розовой астильбы</p>
+                            <p class="product-card__price"><b>7 800 ₽</b></p>
+                        </article>
+                        <article class="product-card">
+                            <div class="product-card__image">
+                                <img src="images/basket3.jpg" class="product-card__image">
+                            </div>
+                            <h4 class="product-card__title">Прованс</h4>
+                            <p class="catalog__compound">белая кустовая хризантема, нежно-розовые кустовые розы,
+                                крупные лимонно-кремовые розы, белая эустома, ветки эвкалипта</p>
+                            <p class="product-card__price"><b>9 000 ₽</b></p>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="delivery" class="delivery">
+            <div class="delivery__container">
+                <h2 class="delivery__title">Доставка и оплата</h2>
+                <div class="delivery__grid">
+                    <div class="delivery__card">
+                        <span class="delivery__number">01</span>
+                        <h4 class="delivery__card-title">Бережная транспортировка</h4>
+                        <p class="delivery__text">Все букеты перевозятся в специальных аквабоксах и защитных коробах, чтобы цветы сохранили первозданную свежесть.</p>
+                    </div>
+                    <div class="delivery__card">
+                        <span class="delivery__number">02</span>
+                        <h4 class="delivery__card-title">Сроки и интервалы</h4>
+                        <p class="delivery__text">Доставляем по городу от 2-х часов с момента заказа или к точно назначенному времени. Работаем ежедневно с 9:00 до 21:00.</p>
+                    </div>
+                    <div class="delivery__card">
+                        <span class="delivery__number">03</span>
+                        <h4 class="delivery__card-title">Удобная оплата</h4>
+                        <p class="delivery__text">Оплата онлайн картой на сайте или по QR-коду через СБП после финального согласования фото готового букета.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <div class="gallery__container">
+                <h2 class="gallery__title">Фото наших клиентов</h2>
+                <div class="gallery__grid">
+                    <div class="gallery__item"><img src="images/gallery1.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery2.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery3.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery4.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery5.jpg" class="gallery__image"></div>
+                    <div class="gallery__item"><img src="images/gallery6.jpg" class="gallery__image"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="logo">Flower Studio</p>
+            <nav class="footer">
+                <ul class="footer__menu">
+                    <li class="footer__item"><a href="#" class="footer__link">Главная</a></li>
+                    <li class="footer__item"><a href="#about" class="footer__link">О нас</a></li>
+                    <li class="footer__item"><a href="#catalog" class="footer__link">Каталог</a></li>
+                    <li class="footer__item"><a href="#delivery" class="footer__link">Доставка</a></li>
+                    <li class="footer__item"><a href="#gallery" class="footer__link">Галерея</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
